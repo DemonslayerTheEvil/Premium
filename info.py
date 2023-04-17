@@ -13,9 +13,9 @@ def is_enabled(value, default):
 # Bot information
 
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+API_ID = int(environ.get('API_ID', '28341884'))
+API_HASH = environ.get('API_HASH', 'ca0c9295ce3ec910fd6f49e99970d9a8')
+BOT_TOKEN = environ.get('BOT_TOKEN', "6001939935:AAFiFiHxphXAky-ecNk-lNwLgR4BFK0FfNw")
 
 # Bot settings
 
@@ -27,25 +27,25 @@ PICS = (environ.get('PICS', 'https://te.legra.ph/file/1d0a2c18fe400858da722.jpg'
 
 # Admins, Channels & Users
 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
-auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5676827158').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001843928263').split()]
+auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '5676827158').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('AUTH_CHANNEL', '')
+auth_channel = environ.get('AUTH_CHANNEL', '-1001976374324')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://aashukr5578:mEkWyhhwVqMFIdPY@cluster0.z49nllu.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', '')
 
 # Others
 
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001843928263'))
 
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'TamilanMoviesChat')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Movies_Chat')
 
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 
@@ -95,12 +95,12 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
 # Extra Features By TamilanBotsZ 💥
 
-HOW_TO_DOWNLOAD = environ.get("HOW_TO_DOWNLOAD", "https://t.me/Sharath_Links/13")
+HOW_TO_DOWNLOAD = environ.get("HOW_TO_DOWNLOAD", "https://t.me/Ggjsns/9")
 
 AUTO_DELETE_SECONDS = int(environ.get('AUTO_DELETE_SECONDS', 300))
 
-FILE_REQ_CHANNEL = int(environ.get('FILE_REQ_CHANNEL', -1001844817928))
+FILE_REQ_CHANNEL = int(environ.get('FILE_REQ_CHANNEL', -1001961567517))
 
-SHORTNER_SITE = environ.get("SHORTNER_SITE", "")
+SHORTNER_SITE = environ.get("SHORTNER_SITE", "omegalinks.in")
 
-SHORTNER_API = environ.get("SHORTNER_API", "")
+SHORTNER_API = environ.get("SHORTNER_API", "69767ef02ba3b32e7ecb823610cd3f107a88c99b")
