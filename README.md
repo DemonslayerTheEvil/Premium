@@ -6,7 +6,7 @@
     <b>PʀᴇᴍɪᴜᴍFɪʟᴛᴇʀ Rᴇᴩᴏ</b>
     </h1>
 
-👩‍💻 Cᴏᴅᴇᴅᴇᴅ Bʏ TᴀᴍɪʟᴀɴBᴏᴛsZ
+👩‍💻 Cᴏᴅᴇᴅᴇᴅ Bʏ AashuBotsZ
 
 🌟 Fᴏʀᴋ & Sᴛᴀʀ Nᴏᴡ 💥
 
@@ -34,7 +34,7 @@
 - 🔥Fɪʟᴇ Uɴᴅᴇʀ Dᴇʟᴇᴛᴇ Bᴜᴛᴛᴏɴ
 - 🔥ɪɴʟɪɴᴇ ʙᴜᴛᴛᴏɴ ᴏɴ ǫᴜᴇʀʏ
 - 🔥Lᴏɢ Mᴇssᴀɢᴇ Cʜᴀɴɢᴇᴅ
-- 🔥Mᴀᴅᴇᴅ Bʏ /Tᴀᴍɪʟᴀɴ_BᴏᴛsZ\
+- 🔥Mᴀᴅᴇᴅ Bʏ /Aashu_BᴏᴛsZ\
 
 
 ### Mᴜsᴛ AᴅᴅVᴀʀɪᴀʙʟᴇs
@@ -108,7 +108,7 @@ Yᴏᴜ Cᴀɴ Dᴇᴘᴏʟʏ Tʜɪs Rᴇᴘᴏ AɴʏWʜᴇʀᴇ
 <p>
 You must have the latest version of <a href="golang.org">go</a> installed first
 <pre>
-git clone https://github.com/TamilanBotsZ/PremiumFilter
+git clone https://github.com/DemonslayerTheEvil/Premium
 cd AwesomeFilterPro
 go build .
 ./PremiumFilter
