@@ -111,7 +111,7 @@ You must have the latest version of <a href="golang.org">go</a> installed first
 git clone https://github.com/DemonslayerTheEvil/Premium
 cd AwesomeFilterPro
 go build .
-./PremiumFilter
+./Premium
 </pre>
 </p>
 </details>
