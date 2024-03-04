@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '28341884'))
 API_HASH = environ.get('API_HASH', 'ca0c9295ce3ec910fd6f49e99970d9a8')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6001939935:AAFiFiHxphXAky-ecNk-lNwLgR4BFK0FfNw")
+BOT_TOKEN = environ.get('BOT_TOKEN', "5852539727:AAG4e5PfLvTMLljlFHC2q4MMK-zsCPrJ_qs")
 
 # Bot settings
 
@@ -27,9 +27,9 @@ PICS = (environ.get('PICS', 'https://te.legra.ph/file/1d0a2c18fe400858da722.jpg'
 
 # Admins, Channels & Users
 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5676827158').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001887641671').split()]
-auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '5676827158').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5676827158''6230062482').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001980108097').split()]
+auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '5676827158''6230062482').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_channel = environ.get('AUTH_CHANNEL', '-1001918172990')
 auth_grp = environ.get('AUTH_GROUP')
@@ -43,7 +43,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files)
 
 # Others
 
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001843928263'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001980108097'))
 
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Movie_BIND')
 
